@@ -1,0 +1,23 @@
+{
+  "doc_id": "06_conflicting_dates",
+  "doc_type": "correspondence",
+  "jurisdiction": {
+    "case_number": "unknown"
+  },
+  "document_date": "2026-06-08",
+  "parties": [
+    {
+      "name": "Ellis Brandtford",
+      "role": "insurer"
+    },
+    {
+      "name": "Dana Reyes-Whitfield",
+      "role": "counsel_for_plaintiff"
+    }
+  ],
+  "deadlines": [],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "conflicting_dates"
+  ]
+}

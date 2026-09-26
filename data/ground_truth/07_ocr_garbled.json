@@ -1,0 +1,30 @@
+{
+  "doc_id": "07_ocr_garbled",
+  "doc_type": "discovery_request",
+  "jurisdiction": {
+    "case_number": "CV-26-1l4892"
+  },
+  "document_date": "unknown",
+  "parties": [
+    {
+      "name": "M1R1AM OK0NKW0",
+      "role": "plaintiff"
+    },
+    {
+      "name": "HALVERS0N L0G1ST1CS LLC",
+      "role": "defendant"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "produce documents",
+      "trigger_date": "2026-06-22",
+      "computed_due_date": "2026-07-22",
+      "computation_basis": "stated_in_document"
+    }
+  ],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "degraded_source_quality"
+  ]
+}

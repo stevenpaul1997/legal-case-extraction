@@ -1,0 +1,50 @@
+{
+  "doc_id": "09_multiparty",
+  "doc_type": "complaint",
+  "jurisdiction": {
+    "case_number": "CV-26-115330"
+  },
+  "document_date": "2026-07-09",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Tobias Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Delphine Array",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Halverson Logistics LLC",
+      "role": "defendant"
+    },
+    {
+      "name": "Corwin Equipment Rentals Inc.",
+      "role": "defendant"
+    },
+    {
+      "name": "Dana Reyes-Whitfield",
+      "role": "counsel_for_plaintiff"
+    },
+    {
+      "name": "Prakash Vandermeer",
+      "role": "counsel_for_defendant"
+    },
+    {
+      "name": "Sylvie Abernathy-Ruiz",
+      "role": "counsel_for_defendant"
+    },
+    {
+      "name": "Marcus Thibodeaux",
+      "role": "judge"
+    }
+  ],
+  "deadlines": [],
+  "monetary_amounts": [],
+  "expected_flags": [],
+  "note": "Halverson Freight is a DBA of Halverson Logistics LLC, not a separate party"
+}

@@ -1,0 +1,54 @@
+{
+  "doc_id": "05_settlement_staggered",
+  "doc_type": "settlement_agreement",
+  "jurisdiction": {
+    "case_number": "CV-26-114892"
+  },
+  "document_date": "2026-05-01",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Halverson Logistics LLC",
+      "role": "defendant"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "first payment",
+      "trigger_date": "2026-05-01",
+      "computed_due_date": "2026-05-31",
+      "computation_basis": "stated_in_document"
+    },
+    {
+      "obligation": "second payment",
+      "trigger_date": "2026-05-01",
+      "computed_due_date": "2026-06-30",
+      "computation_basis": "stated_in_document"
+    },
+    {
+      "obligation": "third payment",
+      "trigger_date": "2026-05-01",
+      "computed_due_date": "2026-07-30",
+      "computation_basis": "stated_in_document"
+    },
+    {
+      "obligation": "file dismissal with prejudice",
+      "trigger_date": "unknown",
+      "computed_due_date": null,
+      "computation_basis": "not_determinable"
+    }
+  ],
+  "monetary_amounts": [
+    150000.0,
+    50000.0,
+    50000.0,
+    50000.0
+  ],
+  "expected_flags": [
+    "ambiguous_date",
+    "undeterminable_deadline"
+  ]
+}

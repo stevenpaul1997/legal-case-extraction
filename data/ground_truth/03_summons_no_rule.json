@@ -1,0 +1,34 @@
+{
+  "doc_id": "03_summons_no_rule",
+  "doc_type": "summons",
+  "jurisdiction": {
+    "case_number": "CV-26-114892"
+  },
+  "document_date": "unknown",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Halverson Logistics LLC",
+      "role": "defendant"
+    },
+    {
+      "name": "Dana Reyes-Whitfield",
+      "role": "counsel_for_plaintiff"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "file written response",
+      "trigger_date": "2026-03-12",
+      "computed_due_date": null,
+      "computation_basis": "not_determinable"
+    }
+  ],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "undeterminable_deadline"
+  ]
+}

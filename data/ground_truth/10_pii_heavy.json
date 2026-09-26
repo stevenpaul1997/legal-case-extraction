@@ -1,0 +1,30 @@
+{
+  "doc_id": "10_pii_heavy",
+  "doc_type": "correspondence",
+  "jurisdiction": {
+    "case_number": "CV-26-114892"
+  },
+  "document_date": "2026-08-03",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "third_party"
+    },
+    {
+      "name": "Dana Reyes-Whitfield",
+      "role": "counsel_for_plaintiff"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "return signed retainer agreement",
+      "trigger_date": "2026-08-03",
+      "computed_due_date": "2026-08-10",
+      "computation_basis": "stated_in_document"
+    }
+  ],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "pii_detected"
+  ]
+}

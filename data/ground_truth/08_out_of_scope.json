@@ -1,0 +1,14 @@
+{
+  "doc_id": "08_out_of_scope",
+  "doc_type": "out_of_scope",
+  "jurisdiction": {
+    "case_number": "unknown"
+  },
+  "document_date": "2026-03-30",
+  "parties": [],
+  "deadlines": [],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "out_of_scope_document"
+  ]
+}

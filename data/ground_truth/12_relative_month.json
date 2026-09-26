@@ -1,0 +1,34 @@
+{
+  "doc_id": "12_relative_month",
+  "doc_type": "court_order",
+  "jurisdiction": {
+    "case_number": "CV-26-114892"
+  },
+  "document_date": "2026-09-30",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Halverson Logistics LLC",
+      "role": "defendant"
+    },
+    {
+      "name": "Marcus Thibodeaux",
+      "role": "judge"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "file Joint Case Management Statement",
+      "trigger_date": "2026-09-30",
+      "computed_due_date": null,
+      "computation_basis": "not_determinable"
+    }
+  ],
+  "monetary_amounts": [],
+  "expected_flags": [
+    "undeterminable_deadline"
+  ]
+}

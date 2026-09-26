@@ -1,0 +1,13 @@
+doc_id,extract_model,prompt_version,doc_type_correct,party_precision,party_recall,amount_precision,amount_recall,unsafe_deadlines,deadline_count_expected,provenance_valid_pct,flag_recall,flags_missed,cost_usd,latency_ms,tokens_in,tokens_out,unsafe_detail,label_variance,notes
+01_complaint_clean,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,0,87.5,1.0,,0.0,3227,2015,807,,,
+02_summons_stated_rule,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,1,80.0,1.0,,0.0,3453,1917,866,,,
+03_summons_no_rule,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,1,80.0,1.0,,0.0,3224,1939,729,,,
+04_demand_letter_expiry,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,1,1,100.0,1.0,,0.0,2925,1937,767,"wrong date for settlement offer expires: got None, expected 2026-04-16",label variance: 'file lawsuit after offer expires' ~ 'settlement offer expires',
+05_settlement_staggered,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,4,100.0,1.0,,0.0,3669,1997,1354,,"label variance: 'payment of $50,000.00 (installment c)' ~ 'third payment'; label variance: 'payment of $50,000.00 (installment b)' ~ 'second payment'; label variance: 'payment of $50,000.00 (installment a)' ~ 'first payment'",
+06_conflicting_dates,openai/gpt-oss-120b,v1,True,0.667,1.0,1.0,1.0,0,0,100.0,0.0,conflicting_dates,0.0,2066,1877,485,,,
+07_ocr_garbled,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,1,100.0,1.0,,0.0,2651,2139,770,,,
+08_out_of_scope,n/a,v1,True,1.0,1.0,1.0,1.0,0,0,100.0,1.0,,0.0,420,444,42,,,
+09_multiparty,openai/gpt-oss-120b,v1,True,1.0,1.0,1.0,1.0,0,0,90.0,1.0,,0.0,3093,2069,926,,,
+10_pii_heavy,openai/gpt-oss-120b,v1,True,0.667,1.0,1.0,1.0,0,1,100.0,1.0,,0.0,2875,1885,763,,,
+11_weekend_deadline,openai/gpt-oss-120b,v1,True,1.0,0.667,1.0,1.0,0,1,80.0,1.0,,0.0,2797,1879,803,,,
+12_relative_month,openai/gpt-oss-120b,v1,True,0.667,0.667,1.0,1.0,0,1,85.7,1.0,,0.0,3124,1881,991,,,

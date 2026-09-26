@@ -1,0 +1,35 @@
+{
+  "doc_id": "04_demand_letter_expiry",
+  "doc_type": "demand_letter",
+  "jurisdiction": {
+    "case_number": "unknown"
+  },
+  "document_date": "2026-04-02",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "third_party"
+    },
+    {
+      "name": "Pinnacle Mutual Insurance Company",
+      "role": "insurer"
+    },
+    {
+      "name": "Dana Reyes-Whitfield",
+      "role": "counsel_for_plaintiff"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "settlement offer expires",
+      "trigger_date": "2026-04-02",
+      "computed_due_date": "2026-04-16",
+      "computation_basis": "stated_in_document"
+    }
+  ],
+  "monetary_amounts": [
+    41320.0,
+    195000.0
+  ],
+  "expected_flags": []
+}

@@ -1,0 +1,32 @@
+{
+  "doc_id": "11_weekend_deadline",
+  "doc_type": "court_order",
+  "jurisdiction": {
+    "case_number": "CV-26-114892"
+  },
+  "document_date": "2026-09-24",
+  "parties": [
+    {
+      "name": "Miriam Okonkwo",
+      "role": "plaintiff"
+    },
+    {
+      "name": "Halverson Logistics LLC",
+      "role": "defendant"
+    },
+    {
+      "name": "Marcus Thibodeaux",
+      "role": "judge"
+    }
+  ],
+  "deadlines": [
+    {
+      "obligation": "serve further verified responses",
+      "trigger_date": "2026-09-24",
+      "computed_due_date": "2026-10-08",
+      "computation_basis": "stated_in_document"
+    }
+  ],
+  "monetary_amounts": [],
+  "expected_flags": []
+}

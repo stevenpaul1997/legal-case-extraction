@@ -1,0 +1,18 @@
+MARLOW REGIONAL MEDICAL CENTER
+Patient Billing Statement
+
+Statement Date: March 30, 2026
+Account Number: 48120097
+
+Patient: M. Okonkwo
+Service Date: January 5, 2026
+
+Emergency Department visit                       $4,210.00
+Diagnostic imaging                               $1,880.00
+Insurance adjustment                            -$2,940.00
+                                          ----------------
+AMOUNT DUE                                       $3,150.00
+
+Payment is appreciated within 30 days. Please detach the lower portion and
+return it with your payment. Questions about your bill? Call our billing
+office Monday through Friday.
