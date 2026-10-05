@@ -5,6 +5,3 @@ backgroundColor = "#ffffff"
 secondaryBackgroundColor = "#f3f5f8"
 textColor = "#15202b"
 font = "sans serif"
-
-[server]
-headless = false
