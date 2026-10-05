@@ -10,7 +10,7 @@ from src import config
 from src.pipeline import process
 
 st.set_page_config(page_title="Legal Case Document Extraction",
-                   page_icon="LEX", layout="wide")
+                   page_icon="⚖️", layout="wide")
 
 st.markdown("""
 <style>
@@ -98,7 +98,7 @@ with left:
     uploaded = st.file_uploader("Or upload a .txt file", type=["txt"])
     text = st.text_area("Document text", height=300,
                         value="" if uploaded else sample_text)
-    run = st.button("Extract", type="primary", use_container_width=True)
+    run = st.button("Extract", type="primary")
 
 if run:
     content = uploaded.read().decode("utf-8", "replace") if uploaded else text
